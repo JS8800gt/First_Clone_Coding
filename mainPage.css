@@ -1,0 +1,194 @@
+@charset 'utf-8';
+
+body {
+    max-width: 1902px;
+    margin: 0 auto;
+    background-color:#f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+
+}
+
+.section1 {
+    width: 50%;
+}
+
+.section2,
+.section3 {
+    width: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 1902px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin: 50px 0 0 180px;
+}
+
+.section2 {
+    border: 1px none black;
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 300px;
+    height: 280px;
+    margin: 10px 0 0 100px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+
+._8eso {
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    width: 500px;
+    margin: 135px 0 0 -227px;
+
+}
+
+.id {
+    margin: -2px 0 0 0;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 5px;
+    
+}
+
+.pw {
+    margin: -20px 0 0 0;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 5px;
+    
+}
+
+#btn {
+    font-size: 15px;
+    color: white;
+    background-color: #166fe5;
+    border: 1px none #166fe5;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+}
+
+.button {
+    margin: -5px 0 0 0;
+}
+
+.forgot {
+    font-size: 12px;
+    color: #1877f2;
+    margin: 18px 0 0 0;
+    text-decoration-line: none;
+}
+
+#btn2 {
+    font-size: 15px;
+    color: white;
+    background-color: #42b72a;
+    border: 1px none #42b72a;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    margin: 13px 0 0 0;
+}
+
+.section3 {
+
+    margin: 250px 0 0 -200px;
+}
+
+.page {
+    color: black;
+    font-weight: bold;
+    font-size: 5px;
+}
+
+.line {
+    width: 270px;
+    margin: 20px 0 0 47px;
+}
+
+.lang {
+    font-size: 3px;
+    margin: 20px 0 0 180px;
+    color: #757575;
+}
+
+.service {
+    
+    font-size: 3px;
+    
+    
+    margin: 0 0 0 180px;
+    color: #757575;
+}
+
+.line2{
+    width: 700px;
+    margin: 0 0 0 180px;
+}
+.meta{
+    font-size: 5px;
+    margin: 0 0 0 180px;
+}
+
+.cele{
+    position: absolute;
+    font-size: 1px;
+    margin: 60px 0 0px -70px;
+}
+
+.make{
+    margin: 54px 0 0 100px;
+}
+
+input::placeholder {
+    font-size: 1em;
+    color: gray;
+   
+   
+
+  }
+.txt1{
+    height: 30px;
+}
+.txt2{
+    height: 30px;
+}
+
+.btn3{
+    height: 20px;
+   background-color: #F5F6F7;
+   color: black;
+   border: 1px solid #eeeeee;
+   
+}
+
+input:focus {
+    outline: 1px solid #40c4ff;
+}
+

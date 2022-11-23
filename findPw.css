@@ -1,0 +1,179 @@
+@charset 'utf-8';
+
+header {
+    display: fixed;
+    top: 0;
+    max-width: 1268px;
+    background-color: #fff;
+    height: 45px;
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 1268px;
+    height: 150px;
+    margin: 0 auto;
+}
+.section1 {
+    width: 1278px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #e9ebee;
+}
+.sect{
+    position: absolute;
+    border: 1px none black;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 10%);
+    margin: 48px 0 0 460px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+
+}
+
+.logo {
+    position: absolute;
+    width: 120px;
+    margin: 0 0 0 0px;
+
+}
+
+.Id {
+    
+    margin: 5px 0 0 820px;
+    
+    
+    
+}
+
+.Pw {
+    
+    margin: 5px 0 0 5px;
+}
+
+.login {
+    position: absolute;
+    margin: 5px 0 0 1093px;
+}
+
+.forgot {
+    position: absolute;
+    margin: 12px 0 0px 1160px;
+    font-size: 5px;
+    color: #385898;
+}
+
+input::placeholder {
+    font-size: 0.5em;
+    color: gray;
+    
+}
+input:focus {
+    outline: 1px solid #40c4ff;
+}
+
+#btn1 {
+    font-size: 11px;
+    color: white;
+    background-color: #166fe5;
+    border: 1px none #166fe5;
+    border-radius: 5px;
+    width: 60px;
+    height: 28px;
+}
+
+.find{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+.hr1{
+    display: flex;
+    background: #e0e0e0;
+    height: 1px;
+    border: 0;
+    margin: 10px 0 0 0;
+    
+}
+
+.put{
+    font-size: 12px;
+    margin: 10px 0 0 10px;
+}
+.IdEmail{
+ margin: 20px 0 0 10px;
+}
+
+.hr2{
+    display: flex;
+    background: #e0e0e0;
+    height: 1px;
+    border: 0;
+    margin: 15px 0 0 0;
+}
+
+#btn2 {
+    position: absolute;
+    font-size: 11px;
+    color: black;
+    background-color: #ccd0d5;
+    border: 1px none #ccd0d5;
+    border-radius: 5px;
+    width: 60px;
+    height: 28px;
+    margin: 7.5px 0 0 210px;
+}
+
+#btn3 {
+    position: absolute;
+    font-size: 11px;
+    color: #FFF;
+    background-color: #166fe5;
+    border: 1px none #166fe5;
+    border-radius: 5px;
+    width: 60px;
+    height: 28px;
+    margin: 7.5px 0 0 275px;
+}
+
+.lang {
+    font-size: 3px;
+    margin: -40px 0 0 280px;
+    color: #757575;
+}
+
+.service {
+    
+    font-size: 3px;
+    
+    
+    margin: 0 0 0 280px;
+    color: #757575;
+}
+
+.line2{
+    display: flex;
+    background: #e0e0e0;
+    height: 1px;
+    border: 0;
+    width: 700px;
+    margin: 0 0 0 280px;
+}
+.meta{
+    font-size: 5px;
+    margin: 0 0 0 280px;
+}
